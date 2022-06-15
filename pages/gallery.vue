@@ -5,23 +5,8 @@
     </div>
     <div class="section details">
       <!-- CONTENT START -->
-      <h1 class="title">Gallery</h1>
-      <CoolLightBox 
-        :items="images" 
-        :index="index"
-        @close="index = null">
-      </CoolLightBox>
-
-      <div class="images-wrapper">
-        <div
-          class="image"
-          v-for="(image, imageIndex) in thumbs"
-          :key="imageIndex"
-          @click="index = imageIndex"
-          :style="{ backgroundImage: 'url(' + image + ')' }"
-        ></div>
-      </div>
-      <!-- CONTENT END -->
+<h1 class="title">Gallery</h1>
+<!-- CONTENT END -->
     </div>
   </div>
 </template>
